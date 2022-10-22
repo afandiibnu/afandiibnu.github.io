@@ -104,7 +104,10 @@ export default function Home() {
             <div className="flex-1 divide-y-[1px]">
               {projects.map((e, index) => {
                 return (
-                  <div className="flex gap-x-4 items-center mb-6 pt-6">
+                  <div
+                    className="flex gap-x-4 items-center mb-6 pt-6"
+                    key={index}
+                  >
                     <img src="/arrowDown.svg" className="-rotate-90" />
                     <Link href={e.href}>
                       <p className="hover:underline text-xl md:text-3xl font-semibold cursor-pointer text-dark">
