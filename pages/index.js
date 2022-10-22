@@ -11,10 +11,13 @@ import {
 } from "framer-motion";
 
 const projects = [
-  { name: "Aero Auction", href: "/" },
+  {
+    name: "Aero Auction",
+    href: "https://gitlab.com/afandiibnu/fe-website-lelang-online",
+  },
   {
     name: "Garuda Eleven Game",
-    href: "https://nft-landing.k3s.bangun-kreatif.com/",
+    href: "/",
   },
   {
     name: "Lorem Ipsum",
